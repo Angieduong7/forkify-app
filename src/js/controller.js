@@ -22,9 +22,11 @@ const controlRecipe = async function () {
     // 2) RENDERING RECIPE
     recipeView.render(model.state.recipe);
   } catch (err) {
-    alert(err);
+    recipeView.renderError();
   }
 };
-['hashchange', 'load'].forEach(ev =>
-  window.addEventListener(ev, controlRecipe)
-);
+
+const init = function () {
+  recipeView.addHandlerRender(controlRecipe);
+};
+init();
