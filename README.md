@@ -1,4 +1,4 @@
-# forkify-app: Allows user to search for meal recipes
+# forkify-app: Allows user to search for meal recipes and add their own recipes
 
 FEATURES:
 
