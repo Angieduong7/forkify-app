@@ -11,10 +11,6 @@ import 'core-js/stable';
 import 'regenerator-runtime';
 import searchView from './views/searchView.js';
 
-// if (module.hot) {
-//   module.hot.accept();
-// }
-
 const recipeContainer = document.querySelector('.recipe');
 
 // https://forkify-api.herokuapp.com/v2

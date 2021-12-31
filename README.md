@@ -12,3 +12,6 @@ FEATURES:
 8. Own recipe upload
 9. Own recipes automatically bookmarked
 10. User can only see own recipes, not from others
+
+AVAILABLE KEYWORDS FOR SEARCH QUERIES:
+https://forkify-api.herokuapp.com/phrases.html
