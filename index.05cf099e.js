@@ -476,9 +476,6 @@ var _addRecipeViewJs = require("./views/addRecipeView.js");
 var _addRecipeViewJsDefault = parcelHelpers.interopDefault(_addRecipeViewJs);
 var _stable = require("core-js/stable");
 var _regeneratorRuntime = require("regenerator-runtime");
-// if (module.hot) {
-//   module.hot.accept();
-// }
 const recipeContainer = document.querySelector('.recipe');
 // https://forkify-api.herokuapp.com/v2
 //////////////////////////////////////
